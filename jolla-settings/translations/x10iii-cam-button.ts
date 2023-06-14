@@ -4,19 +4,22 @@
 <context>
     <name></name>
     <message id="settings-x10iii-camera-status-off">
+        <location filename="../pages/x10iii-cam-button/EnableSwitch.qml" line="19"/>
         <source>Cams: front</source>
         <extracomment>top menu button status text</extracomment>
-        <translation>Cams: front</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message id="settings-x10iii-camera-status-on">
+        <location filename="../pages/x10iii-cam-button/EnableSwitch.qml" line="22"/>
         <source>Cams: triple</source>
         <extracomment>top menu button status text</extracomment>
-        <translation>Cams: triple</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message id="settings-x10iii-cam-button">
+        <location filename="../pages/x10iii-cam-button/EnableSwitch.qml" line="26"/>
         <source>X10III Camera Toggle</source>
         <extracomment>button name in the top menu</extracomment>
-        <translation>X10III Camera Toggle</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
