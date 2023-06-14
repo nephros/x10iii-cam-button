@@ -32,7 +32,8 @@ BuildRequires:  systemd
 %description
 Adds a Top Menu switch to toggle triple cameras on Xperia 10 III.
 
-Note that as of SFOS 4.5, enabling triple cameras DISABLES the front (selfie) camera.
+Note that as of SFOS 4.5, enabling triple cameras DISABLES the front
+(selfie) camera.
 
 %if "%{?vendor}" == "chum"
 PackageName: X10iii Multicam Toggle
@@ -46,6 +47,7 @@ Custom:
 Icon: https://sailfishos.org/content/sailfishos-docs//sailfish-content-graphics-default/latest/images/icon-cover-camera.svg
 Url:
   Homepage: %{url}
+  Help: https://docs.sailfishos.org/Support/Help_Articles/Camera/#multiple-cameras-of-xperia-10-iii
   Bugtracker: %{url}/issues
   Donation: https://openrepos.net/donate
 %endif
