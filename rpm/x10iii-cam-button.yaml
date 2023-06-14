@@ -32,7 +32,9 @@ Macros:
   - 'theme;sailfish-default'
 #Patches:
 #  - 'baz'
-#Requires:
+Requires:
+  - droid-system-pdx213       # Xperia 10 iii
+  - sailfish-version >= 4.4.0 # untested on lower releases
 RequiresPost:
   - systemd
 RequiresPreUn:

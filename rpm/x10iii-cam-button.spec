@@ -18,6 +18,8 @@ BuildArch:  noarch
 URL:        https://github.com/nephros/x10iii-cam-button
 Source0:    %{name}-%{version}.tar.gz
 Source100:  x10iii-cam-button.yaml
+Requires:   droid-system-pdx213
+Requires:   sailfish-version >= 4.4.0
 Requires(preun): systemd
 Requires(post): systemd
 Requires(postun): systemd
