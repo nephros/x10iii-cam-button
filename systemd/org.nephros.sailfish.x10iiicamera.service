@@ -1,5 +1,6 @@
 [Unit]
 Description=Xperia 10III Triple Camera Toggle
+Documentation=https://docs.sailfishos.org/Support/Help_Articles/Camera/#multiple-cameras-of-xperia-10-iii
 After=droid-hal-init.service
 
 [Service]

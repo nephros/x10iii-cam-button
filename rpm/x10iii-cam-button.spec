@@ -102,5 +102,6 @@ fi
 %{_datadir}/jolla-settings/entries/%{name}.json
 %{_datadir}/jolla-settings/pages/%{name}/EnableSwitch.qml
 %{_datadir}/translations/*.qm
+%{_datadir}/themes/%{theme}/meegotouch/z*/icons/*.png
 # >> files
 # << files

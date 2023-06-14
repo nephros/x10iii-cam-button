@@ -12,8 +12,7 @@ SettingsToggle {
 
     active: checked
     checked: serviceRunning
-    icon.source: "image://theme/icon-m-browser-camera"
-    showOnOffLabel: true
+    icon.source: checked ? "image://theme/icon-m-triplecam" : "image://theme/icon-m-frontcam" 
 
     //% "Cams: front"
     //: top menu button status text
@@ -25,7 +24,6 @@ SettingsToggle {
     //% "X10III Cam Toggle"
     //: button name in the top menu
     property string buttonname: qsTrId("settings-x10iii-cam-button")
-
 
     onToggled: {
         if (!checked) {
