@@ -1,3 +1,3 @@
 TEMPLATE = subdirs
-SUBDIRS =  jolla-settings systemd icons
+SUBDIRS = jolla-settings systemd icons
 

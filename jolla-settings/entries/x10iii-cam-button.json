@@ -2,16 +2,14 @@
     "translation_catalog": "x10iii-cam-button",
     "entries": [
         {
-            "path": "system_settings/look_and_feel/x10iii-cam-button/enable_switch",
+            "path": "system_settings/look_and_feel/events/x10iii-cam-button/enable_switch",
             "type": "custom",
-            "icon": "image://theme/icon-m-camera",
-            "title": "X10III Cam Toggle",
             "translation_id": "settings-x10iii-cam-button",
+            "icon": "image://theme/icon-m-camera",
             "params": {
                 "source": "/usr/share/jolla-settings/pages/x10iii-cam-button/EnableSwitch.qml",
                 "type": "grid",
-                "privileged": "true",
-                "settings_path": "system_settings/look_and_feel/x10iii-cam-button"
+                "privileged": "true"
             }
         }
     ]

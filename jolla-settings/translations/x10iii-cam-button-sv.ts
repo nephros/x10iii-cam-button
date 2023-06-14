@@ -6,18 +6,17 @@
     <message id="settings-x10iii-camera-status-off">
         <source>Cams: front</source>
         <extracomment>top menu button status text</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Kam: framsida</translation>
     </message>
     <message id="settings-x10iii-camera-status-on">
         <source>Cams: triple</source>
         <extracomment>top menu button status text</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Kam: trippel</translation>
     </message>
     <message id="settings-x10iii-cam-button">
         <source>X10III Cam Toggle</source>
-        <oldsource>X10iii Cams</oldsource>
         <extracomment>button name in the top menu</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>X10III Kamera växla</translation>
     </message>
 </context>
 </TS>
