@@ -21,7 +21,7 @@ SettingsToggle {
     //: top menu button status text
     activeText: qsTrId("settings-x10iii-camera-status-on")
     //this is just here to have IDs for translations used in entries.json
-    //% "X10III Cam Toggle"
+    //% "X10III Camera Toggle"
     //: button name in the top menu
     property string buttonname: qsTrId("settings-x10iii-cam-button")
 

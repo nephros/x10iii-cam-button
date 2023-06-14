@@ -14,7 +14,7 @@
         <translation>Cams: triple</translation>
     </message>
     <message id="settings-x10iii-cam-button">
-        <source>X10III Cam Toggle</source>
+        <source>X10III Camera Toggle</source>
         <extracomment>button name in the top menu</extracomment>
         <translation>X10III Camera Toggle</translation>
     </message>
