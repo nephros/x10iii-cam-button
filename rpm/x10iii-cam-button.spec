@@ -35,6 +35,7 @@ Adds a Top Menu switch to toggle triple cameras on Xperia 10 III.
 Note that as of SFOS 4.5, enabling triple cameras DISABLES the front
 (selfie) camera.
 
+Also this will ONLY install on X10III devices!
 %if "%{?vendor}" == "chum"
 PackageName: X10iii Multicam Toggle
 Type: desktop-application

@@ -9,7 +9,7 @@
             "params": {
                 "source": "/usr/share/jolla-settings/pages/x10iii-cam-button/EnableSwitch.qml",
                 "type": "grid",
-                "privileged": "true"
+                "privileged": "false"
             }
         }
     ]
