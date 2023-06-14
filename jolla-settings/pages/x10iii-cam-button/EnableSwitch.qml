@@ -36,7 +36,7 @@ SettingsToggle {
     }
 
     Component.onCompleted: {
-        console.info("X10iii Tripe Camera Toggle v@@UNRELEASED@@ loaded.")
+        console.info("X10III Triple Camera Toggle v@@UNRELEASED@@ loaded.")
     }
 
     /*

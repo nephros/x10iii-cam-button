@@ -9,7 +9,7 @@ settings-ui.files = pages/x10iii-cam-button/EnableSwitch.qml
 INSTALLS += settings-ui settings-entry
 
 lupdate_only {
-    SOURCES += pages/*.qml
+    SOURCES += pages/*/*.qml
 }
 
 TRANSLATIONS += translations/x10iii-cam-button.ts \
