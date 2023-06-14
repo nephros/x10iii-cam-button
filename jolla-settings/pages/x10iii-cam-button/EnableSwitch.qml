@@ -12,12 +12,12 @@ SettingsToggle {
 
     active: checked
     checked: serviceRunning
-    icon.source: checked ? "image://theme/icon-m-triplecam" : "image://theme/icon-m-frontcam" 
+    icon.source: checked ? "image://theme/icon-m-triplecam" : "image://theme/icon-m-frontcam"
 
-    //% "Cams: front"
+    //% "Camera: front"
     //: top menu button status text
     name: qsTrId("settings-x10iii-camera-status-off")
-    //% "Cams: triple"
+    //% "Camera: triple"
     //: top menu button status text
     activeText: qsTrId("settings-x10iii-camera-status-on")
     //this is just here to have IDs for translations used in entries.json

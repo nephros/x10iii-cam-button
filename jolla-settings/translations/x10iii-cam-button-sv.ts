@@ -4,14 +4,14 @@
 <context>
     <name></name>
     <message id="settings-x10iii-camera-status-off">
-        <source>Cams: front</source>
+        <source>Camera: front</source>
         <extracomment>top menu button status text</extracomment>
-        <translation>Kam: framsida</translation>
+        <translation>Kamera: framsida</translation>
     </message>
     <message id="settings-x10iii-camera-status-on">
-        <source>Cams: triple</source>
+        <source>Camera: triple</source>
         <extracomment>top menu button status text</extracomment>
-        <translation>Kam: trippel</translation>
+        <translation>Kameras: trippel</translation>
     </message>
     <message id="settings-x10iii-cam-button">
         <source>X10III Camera Toggle</source>

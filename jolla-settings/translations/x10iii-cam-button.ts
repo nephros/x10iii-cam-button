@@ -5,13 +5,15 @@
     <name></name>
     <message id="settings-x10iii-camera-status-off">
         <location filename="../pages/x10iii-cam-button/EnableSwitch.qml" line="19"/>
-        <source>Cams: front</source>
+        <source>Camera: front</source>
+        <oldsource>Cams: front</oldsource>
         <extracomment>top menu button status text</extracomment>
         <translation type="unfinished"></translation>
     </message>
     <message id="settings-x10iii-camera-status-on">
         <location filename="../pages/x10iii-cam-button/EnableSwitch.qml" line="22"/>
-        <source>Cams: triple</source>
+        <source>Camera: triple</source>
+        <oldsource>Cams: triple</oldsource>
         <extracomment>top menu button status text</extracomment>
         <translation type="unfinished"></translation>
     </message>
