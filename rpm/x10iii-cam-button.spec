@@ -18,6 +18,7 @@ BuildArch:  noarch
 URL:        https://github.com/nephros/x10iii-cam-button
 Source0:    %{name}-%{version}.tar.gz
 Source100:  x10iii-cam-button.yaml
+Requires(preun): systemd
 Requires(post): systemd
 Requires(postun): systemd
 BuildRequires:  qml-rpm-macros
@@ -76,14 +77,23 @@ rm -rf %{buildroot}
 sed -i -e "s/@@UNRELEASED@@/%{version}-%{release}/" %{buildroot}%{_datadir}/jolla-settings/pages/%{name}/EnableSwitch.qml
 # << install post
 
+%preun
+# >> preun
+if [ $1 == 0 ]; then #uninstall
+systemctl stop org.nephros.sailfish.x10iiicamera.service
+fi
+# << preun
+
 %post
 # >> post
-systemctl daemon-reload
+systemctl daemon-reload ||:
 # << post
 
 %postun
 # >> postun
+if [ $1 == 0 ]; then #uninstall
 systemctl daemon-reload
+fi
 # << postun
 
 %files

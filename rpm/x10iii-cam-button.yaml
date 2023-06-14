@@ -35,6 +35,8 @@ Macros:
 #Requires:
 RequiresPost:
   - systemd
+RequiresPreUn:
+  - systemd
 RequiresPostUn:
   - systemd
 PkgBR:
