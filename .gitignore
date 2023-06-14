@@ -1,0 +1,11 @@
+Makefile
+icons/Makefile
+icons/z1.0/
+icons/z1.25/
+icons/z1.5-large/
+icons/z1.5/
+icons/z1.75/
+icons/z2.0/
+*list
+build.log
+*.qm

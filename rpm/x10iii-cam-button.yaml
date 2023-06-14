@@ -1,0 +1,57 @@
+Name: x10iii-cam-button
+Summary: Toggle XPeria 10III Cameras
+Version: 0.1.0
+Release: 0
+Group: Applications
+License: ASL 2.0
+URL: https://github.com/nephros/x10iii-cam-button
+SCM: https://github.com/nephros/x10iii-cam-button
+Sources:
+    - '%{name}-%{version}.tar.gz'
+Description: |
+     Adds a Top Menu switch to toggle triple cameras on Xperia 10 III.
+
+     Note that as of SFOS 4.5, enabling triple cameras DISABLES the front (selfie) camera.
+
+     %if "%{?vendor}" == "chum"
+     PackageName: X10iii Multicam Toggle
+     Type: desktop-application
+     DeveloperName: nephros
+     Categories:
+       - System
+       - Settings
+     Custom:
+       Repo: %{url}
+     Icon: https://sailfishos.org/content/sailfishos-docs//sailfish-content-graphics-default/latest/images/icon-cover-camera.svg
+     Url:
+       Homepage: %{url}
+       Bugtracker: %{url}/issues
+       Donation: https://openrepos.net/donate
+     %endif
+Macros:
+  - 'theme;sailfish-default'
+#Patches:
+#  - 'baz'
+#Requires:
+RequiresPost:
+  - systemd
+RequiresPostUn:
+  - systemd
+PkgBR:
+  - qml-rpm-macros
+  - qt5-qmake
+  - qt5-qttools-linguist
+  - sailfish-svg2png
+  - systemd
+Configure: none
+Builder: qmake5
+BuildArch: noarch
+NoIconCache: true
+Files:
+  - '%{_unitdir}/org.nephros.sailfish.x10iiicamera.service'
+  - '%{_datadir}/jolla-settings/entries/%{name}.json'
+  - '%{_datadir}/jolla-settings/pages/%{name}/EnableSwitch.qml'
+  - '%{_datadir}/translations/*.qm'
+  # '%{_datadir}/themes/%{theme}/meegotouch/z*/icons/*.png'
+
+
