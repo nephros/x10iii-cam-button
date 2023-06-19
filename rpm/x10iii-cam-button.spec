@@ -32,12 +32,18 @@ BuildRequires:  systemd
 %description
 Adds a Top Menu switch to toggle triple cameras on Xperia 10 III.
 
-Note that as of SFOS 4.5, enabling triple cameras DISABLES the front
-(selfie) camera.
+Tapping that will modify a vendor config file and kill the camera service,
+after which Camera apps will gain access to all three cameras.
 
-Also this will ONLY install on X10III devices!
+  - 16mm f2.2 ultrawide
+  - 27mm f1.8 wide
+  - 54mm f/4.0 telephoto
+
+Note that enabling triple cameras DISABLES the front (selfie) camera (and the other way around).
+
+Also this will ONLY install on X10III devices, and they MUST be running SFOS 4.4 or later!
 %if "%{?vendor}" == "chum"
-PackageName: X10iii Multicam Toggle
+PackageName: X10III Triple Camera Toggle
 Type: desktop-application
 DeveloperName: nephros
 Categories:
