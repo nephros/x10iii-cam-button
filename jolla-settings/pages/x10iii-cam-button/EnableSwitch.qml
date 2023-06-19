@@ -60,14 +60,14 @@ SettingsToggle {
             call('Start',
                 ["replace",],
                 function(result) { console.debug("Job:", JSON.stringify(result)); },
-                function(result) { console.warn("Start %1".arg(u), result) }
+                function(error, message) { console.warn("Error starting org.nephros.sailfish.x10iiicamera:", message) }
             );
         }
         function stop() {
             call('Stop',
                 [ "replace",],
                 function(result) { console.debug("Job:", JSON.stringify(result)); },
-                function(result) { console.warn("Stop %1".arg(u), result) }
+                function(error,message) { console.warn("Error stopping org.nephros.sailfish.x10iiicamera:", message) }
             );
         }
     }
