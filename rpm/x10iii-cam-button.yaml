@@ -64,5 +64,6 @@ Files:
   - '%{_datadir}/jolla-settings/pages/%{name}/EnableSwitch.qml'
   - '%{_datadir}/translations/*.qm'
   - '%{_datadir}/themes/%{theme}/meegotouch/z*/icons/*.png'
+  - '%{_sysconfdir}/polkit-1/rules.d/10-%{name}-allow-manage-service.rules'
 
 
