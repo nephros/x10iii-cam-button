@@ -5,7 +5,6 @@ import QtQuick 2.1
 import Sailfish.Silica 1.0
 import Nemo.DBus 2.0
 import com.jolla.settings 1.0
-import org.nemomobile.systemsettings 1.0
 
 SettingsToggle {
     id: toggleSwitch
@@ -23,7 +22,7 @@ SettingsToggle {
     //this is just here to have IDs for translations used in entries.json
     //% "X10III Camera Toggle"
     //: button name in the top menu
-    property string buttonname: qsTrId("settings-x10iii-cam-button")
+    readonly property string buttonName: qsTrId("settings-x10iii-cam-button")
 
     onToggled: {
         if (!checked) {
