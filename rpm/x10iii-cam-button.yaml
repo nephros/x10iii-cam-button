@@ -42,6 +42,7 @@ Macros:
 Requires:
   - droid-system-pdx213       # Xperia 10 iii
   - sailfish-version >= 4.4.0 # untested on lower releases
+  - polkit > 0.105            # reqd for polkit rules. SFOS ships 0.105 currently.
 RequiresPost:
   - systemd
 RequiresPreUn:
