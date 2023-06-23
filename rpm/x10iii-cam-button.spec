@@ -10,7 +10,7 @@ Name:       x10iii-cam-button
 %define theme sailfish-default
 
 Summary:    Toggle XPeria 10III Cameras
-Version:    0.2.1
+Version:    0.3.1
 Release:    0
 Group:      Applications
 License:    ASL 2.0
@@ -20,6 +20,7 @@ Source0:    %{name}-%{version}.tar.gz
 Source100:  x10iii-cam-button.yaml
 Requires:   droid-system-pdx213
 Requires:   sailfish-version >= 4.4.0
+Requires:   /usr/bin/pkill
 Requires(preun): systemd
 Requires(post): systemd
 Requires(postun): systemd
