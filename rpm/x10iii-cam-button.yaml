@@ -14,11 +14,11 @@ Description: |
      Tapping that will modify a vendor config file and kill the camera service,
      after which Camera apps will gain access to all three cameras.
 
-       - 16mm f2.2 ultrawide
-       - 27mm f1.8 wide
-       - 54mm f/4.0 telephoto
-
      Note that enabling triple cameras DISABLES the front (selfie) camera (and the other way around).
+
+     You should only toggle the button while any applications using the camera
+     are STOPPED. I.e. close camera apps, and anything else like video chats
+     etc.
 
      Also this will ONLY install on X10III devices, and they MUST be running SFOS 4.4 or later!
      %if "%{?vendor}" == "chum"
