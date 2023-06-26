@@ -21,5 +21,5 @@ ReadWritePaths=/vendor/etc/camera
 
 Environment=CAMXFILE=/vendor/etc/camera/camxoverridesettings.txt
 Environment=CAMPROVIDER=/vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
-ExecStart=/bin/sh -c "sed -i 's/^multiCameraEnable=.*$/multiCameraEnable=TRUE/'  $CAMXFILE && /usr/bin/pkill -f $CAMPROVIDER"
-ExecStop=/bin/sh -c  "sed -i 's/^multiCameraEnable=.*$/multiCameraEnable=FALSE/' $CAMXFILE && /usr/bin/pkill -f $CAMPROVIDER"
+ExecStart=/bin/sh -c "/bin/sed -i 's/^multiCameraEnable=.*$/multiCameraEnable=TRUE/'  $CAMXFILE && /usr/bin/pkill -f $CAMPROVIDER"
+ExecStop=/bin/sh -c  "/bin/sed -i 's/^multiCameraEnable=.*$/multiCameraEnable=FALSE/' $CAMXFILE && /usr/bin/pkill -f $CAMPROVIDER"

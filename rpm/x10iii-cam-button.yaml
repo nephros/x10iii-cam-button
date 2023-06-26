@@ -48,8 +48,8 @@ Macros:
 Requires:
   - droid-system-pdx213       # Xperia 10 iii
   - sailfish-version >= 4.4.0 # untested on lower releases
-  # procps-ng
-  - /usr/bin/pkill
+  - /usr/bin/pkill            # procps-ng or procps
+  - /bin/sed                  # busybox-symlinks-sed or gnu-sed
 RequiresPost:
   - systemd
 RequiresPreUn:

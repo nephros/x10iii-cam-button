@@ -21,6 +21,7 @@ Source100:  x10iii-cam-button.yaml
 Requires:   droid-system-pdx213
 Requires:   sailfish-version >= 4.4.0
 Requires:   /usr/bin/pkill
+Requires:   /bin/sed
 Requires(preun): systemd
 Requires(post): systemd
 Requires(postun): systemd
