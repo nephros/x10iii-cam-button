@@ -1,16 +1,22 @@
 [Unit]
 Description=Xperia 10III Triple Camera Toggle
 Documentation=https://docs.sailfishos.org/Support/Help_Articles/Camera/#multiple-cameras-of-xperia-10-iii
+Documentation=https://forum.sailfishos.org/t/toggle-xperia-10iii-cameras/15975/8
 After=droid-hal-init.service
 
 [Service]
 Type=oneshot
+
+# "active"   ==> config file is edited, button is on
+# "inactive" ==> config file is default, button is off
 RemainAfterExit=yes
 
+# Sandbox
 ProtectHome=true
 ProtectKernelTunables=true
 ProtectSystem=strict
 PrivateTmp=true
+# Poke holes:
 ReadWritePaths=/vendor/etc/camera
 
 Environment=CAMXFILE=/vendor/etc/camera/camxoverridesettings.txt
