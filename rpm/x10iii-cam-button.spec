@@ -41,7 +41,7 @@ Note that enabling triple cameras DISABLES the front (selfie) camera (and the ot
 
 You should only toggle the button while any applications using the camera
 are STOPPED. I.e. close camera apps, and anything else like video chats
-etc.
+etc. And, Android Support should be OFF, or restarted after toggling!
 
 Also this will ONLY install on X10III devices, and they MUST be running SFOS 4.4 or later!
 %if "%{?vendor}" == "chum"
