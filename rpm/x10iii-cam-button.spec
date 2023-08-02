@@ -45,7 +45,7 @@ etc. And, Android Support should be OFF, or restarted after toggling!
 
 Also this will ONLY install on X10III devices, and they MUST be running SFOS 4.4 or later!
 %if "%{?vendor}" == "chum"
-PackageName: X10III Triple Camera Toggle
+Title: X10III Triple Camera Toggle
 Type: desktop-application
 DeveloperName: nephros
 Categories:
@@ -53,7 +53,7 @@ Categories:
   - Settings
 Custom:
   Repo: %{url}
-Icon: https://sailfishos.org/content/sailfishos-docs//sailfish-content-graphics-default/latest/images/icon-cover-camera.svg
+PackageIcon: https://sailfishos.org/content/sailfishos-docs//sailfish-content-graphics-default/latest/images/icon-cover-camera.svg
 Screenshots:
        - %{url}/raw/master/Screenshot_001.png
        - %{url}/raw/master/Screenshot_002.png
